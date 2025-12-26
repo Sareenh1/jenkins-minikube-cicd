@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx-cicd:latest
-        imagePullPolicy: Never
+        image: sareen/nginx-cicd:latest
         ports:
         - containerPort: 80
 
